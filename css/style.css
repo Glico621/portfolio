@@ -1,8 +1,9 @@
+
 body{
-    background-image: url("../image/kaiyu.jpeg");
+    background-image: url("../image/penguin2.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: relative;
 }
 
 p {
@@ -10,9 +11,11 @@ p {
     font-size: 40px;
     font-family: 'DotGothic16', sans-serif;
 }
+
 .nameTag{
     color: aliceblue;
     font-size: 70px;
     font-family: 'DotGothic16', sans-serif;
-    margin: 8%;
+    margin-left: 8%;
+    margin-top: 0%;
 }
