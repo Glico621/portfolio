@@ -1,5 +1,12 @@
+body{
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+}
+
+
 .navigation{
     position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     z-index: 100;
 }
@@ -12,11 +19,7 @@
     background-size:cover;
     background-attachment: fixed;   /*画像を固定*/
 }
-p {
-    color: aliceblue;
-    font-size: 40px;
-    font-family: 'DotGothic16', sans-serif;
-}
+
 
 .nameTag{
     color: aliceblue;
@@ -26,31 +29,32 @@ p {
     margin-top: 0%;
     position:absolute;
     top: 10%;
-    
 }
 
 .box{
     width: 100%;
-    height: 1200px;
+    height: 1900px;
 }
 
 h2 {
-    font-family: 'DotGothic16', sans-serif;
+    font-size: 100px;
+    font-family:'メイリオ', 'Meiryo', sans-serif;
     margin: 0;
     position: relative;
     display: inline-block;
     background-color: #fff;
     margin-left: 30px;
     padding: 0 10px;
-    
-    }
+}
 
-    .midashi {
+
+
+.midashi {
     position: relative;
     margin-bottom: 15px;
-    }
+}
 
-    .midashi:before {
+.midashi:before {
     content:  '';
     background-color: #000;
     display: block;
@@ -62,3 +66,45 @@ h2 {
     left: 0;
     margin: auto;
     }
+
+.white {
+    width: 100%;
+    height:70px;
+}
+
+.first{
+
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.about{
+    margin: 10%;
+    width: 90%;
+    position:center;
+    overflow: hidden;
+}
+
+.about-box{
+    float: left;
+}
+
+.about img{
+    border-radius: 10px;
+}
+
+.about-box-p{
+    width: 150%;
+    margin-left: 40%;
+}
+
+.works{
+    margin: 10%;
+    width: 80%;
+    position:center;
+}
+
+.basket{
+    width: 200px;
+    height:auto;
+}
