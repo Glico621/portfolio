@@ -34,6 +34,17 @@ body{
     top: 10%;
 }
 
+.workpage{
+    color:black;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'DotGothic16', sans-serif;
+    margin-left: 8%;
+    margin-top: 0%;
+    position:absolute;
+    top: 10%;
+}
+
 
 
 h2 {
@@ -118,4 +129,54 @@ ul.exp-list{
 li.exp-list{
     list-style: none;
     margin-right: 20px;
+}
+
+
+.workBox{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    position:center;
+    overflow: hidden;
+}
+
+p.text{
+    font-size:20px;
+}
+
+.example{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px gray;
+}
+
+figure {
+    width:23vw;
+    float: left;
+    margin: 0px 3px 7px 0px; /* 外側に余白を追加(※右に3px・下に7px) */
+    background-color: white;  /* 背景色 */
+}
+/* ▼画像に対する装飾 */
+figure img {
+    width:20vw;
+    display: block;          /* 余計な余白が出ないようにする */
+    margin: 0px 0px 3px 10px; /* 下側にだけ3pxの余白を追加 */
+}
+/* ▼キャプションに対する装飾 */
+figcaption {
+    font-size: 0.9em;        /* 文字サイズを90%に */
+    text-align: left;      /* 中身をセンタリング */
+}
+
+
+.pics{
+    width: 100%;
+    height: fit-content;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+object{
+    box-shadow: 0 0 8px gray;
 }
